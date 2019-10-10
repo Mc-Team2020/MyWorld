@@ -1,0 +1,219 @@
+MYSQL:
+  username: "root"
+  password: "aojian123"
+  #表名
+  table: "guild"
+  root: "3306"
+  ip: "localhost"
+PlayerName:
+  Pattern: "[\u4e00-\u9fa5]"
+  Message: "&a[提示]: &c请不要使用带中文的名字进入游戏！"
+GuildNameSize: 6
+Settings:
+  #帮派等级
+  GuildLevel:
+    #每个等级之间的配置
+    Configure:
+      1:
+        Money: 100
+        Contribution: 100
+      #等级1升级等级二所需
+      2:
+        Money: 1000
+        Contribution: 10000
+      3:
+        Money: 5000
+        Contribution: 50000
+      4:
+        Money: 10000
+        Contribution: 100000
+      5:
+        Money: 50000
+        Contribution: 500000
+  #摇钱树设置      
+  RockingQianShu:
+    #帮派等级1的摇钱树设置
+    1:
+      3:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      2:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      1:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:<Guild>玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+    #帮派等级2的摇钱树设置
+    2:
+      3:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      2:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      1:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+    #帮派等级3的摇钱树设置
+    3:
+      3:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      2:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      1:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+    #帮派等级4的摇钱树设置
+    4:
+      3:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      2:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      1:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+    #帮派等级5的摇钱树设置
+    5:
+      3:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      2:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+      1:
+        Money: 100-1000
+        Trigger:
+          - "tell:本次使用摇钱树您获得了<Money>金币 "
+          - "tellall:玩家<Player>使用摇钱树获得了<Money>金币"
+          - "command:/spawn"
+          - "tell:您获得了双倍金币！"
+          - "op:/eco give <Player> <Money>"
+
+  ChooseGUI:
+    size: 9
+    AcceptItem:
+      size: 2
+      id: 35
+      data: 5
+      name: "§a接受"
+      lore:
+        - "§a接受邀请"
+    RefuseItem:
+      size: 6
+      id: 35
+      data: 14
+      name: "§4拒绝"
+      lore:
+        - "§c拒绝邀请"
+  #邀请GUI界面
+  Invitation_GUI:
+    #标题
+    Prefix: "邀请界面"
+    #大小
+    Size: 54
+    Item:
+      id: 425
+      data: 1
+  #邀请显示信息停留时间
+  Invitation_InformationTime: 120
+  #帮派聊天设置
+  GuildChat:
+    Formal: "&f[&a帮&f]&f[&b{player}&f] &f> {message}"
+    Prefix: "|-"
+  #活跃度
+  Activity:
+    #秒 例子30*60*60=108000 
+    #10分钟
+    600:
+      #给予的声望
+      Vitality: 100
+      Trigger:
+        - "tell:&a您在线时间达到&e10&a分钟 获得&e100&a点活跃值,再接再厉！"
+    #1分钟  
+    60:
+      Vitality: 10
+      Trigger:
+        - "tell:&a您在线时间达到&e1&a分钟 获得&e10&a点活跃值,再接再厉！"
+    300:
+      Vitality: 10
+      Trigger:
+        - "tell:&a您在线时间达到&e5&a分钟 获得&e10&a点活跃值,再接再厉！"
+    4400:
+      Vitality: 50
+      Trigger:
+        - "tell:&a您在线时间达到&4400&a分钟 获得&e50&a点活跃值,再接再厉！"
+    

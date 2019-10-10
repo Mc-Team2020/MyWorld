@@ -1,0 +1,8 @@
+name: ProjectGuild
+main: cc.kunss.guild.Main
+version: 1.0
+author: KunSs
+depend:
+- Vault
+commands:
+  jlbp:
